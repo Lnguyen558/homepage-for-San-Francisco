@@ -1,0 +1,89 @@
+
+
+
+
+  /* Format container */
+  main
+  {
+    border: 5px double red;
+    background-color: teal;
+
+   min-height: calc(100vh - 225px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+
+
+
+
+/* format the card */
+#card {
+ 
+
+  background-color: white;
+  /* background-color: pink; */
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* format form  */
+.myForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* format input box  */
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+
+
+/* format logo */
+#card img {
+  padding-bottom: 20px;
+}
+
+/* format placeholder */
+::placeholder {
+  text-align: center;
+  color: red;
+
+}
+
+/* fomrat input box to change color
+when hover */
+.input-field:hover {
+  cursor: pointer;
+  background-color: yellowgreen;
+}
+
+/* format input field */
+.input-field {
+  border: none;
+  /* background-color: pink; */
+  outline: none;
+  border-bottom: 3px solid teal;
+  width: 200px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+/* fomrat button */
+.input-container button {
+  color: red;
+  background-color: orange;
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px;
+}
