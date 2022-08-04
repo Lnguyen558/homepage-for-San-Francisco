@@ -1,0 +1,50 @@
+* {
+  /* background-color: white !important; */
+}
+
+main {
+  border: 2px solid red;
+
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main .email-input {
+  width: 30%;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+
+  color: red;
+}
+
+main .text-input {
+  width: 30%;
+  margin-top: 10px;
+
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+
+  color: red;
+}
+
+.submit-btn {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  main .email-input {
+    width: 80%;
+    font-size: 1rem;
+
+  }
+
+  main .text-input {
+    width: 80%;
+    font-size: 1rem;
+ 
+  }
+}
